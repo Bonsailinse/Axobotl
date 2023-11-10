@@ -8,7 +8,8 @@ Please consider these guidelines when filing a pull request:
 - Code contributions should match the existing code style. `turbo lint` could help you check.
 - Discuss additions/changes with us [on Discord](https://discord.gg/TynN4mjajp) before working on them.
 - Check the dev branch to make sure someone hasn't worked on the same thing already.
-- Commits follow the [Angular.js commit conventions](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)
+- Commits follow the [Angular.js commit conventions](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines).
+  - We use [commitizen](https://github.com/commitizen/cz-cli) to ensure uniform commits. Try `turbo commit`.
 - Pull requests should point to the dev branch, not main.
 
 ## Creating releases

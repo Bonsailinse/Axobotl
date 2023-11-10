@@ -6,7 +6,7 @@
       "dependsOn": ["^db:generate"],
       "outputs": ["dist/**", ".next/**", "!.next/cache/**"]
     },
-    "start":{
+    "start": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".next/**", "!.next/cache/**"]
     },
@@ -22,11 +22,12 @@
     "clean": {
       "cache": false
     },
-    "db:generate":{
+    "db:generate": {
       "cache": false
     },
-    "db:push":{
+    "db:push": {
       "cache": false
-    }
+    },
+    "commit": {}
   }
 }

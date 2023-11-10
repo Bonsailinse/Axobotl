@@ -14,9 +14,11 @@
     "start": "turbo start",
     "lint": "turbo lint",
     "clean": "turbo clean",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "commit": "git-cz"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.3",
@@ -39,5 +41,10 @@
   "bugs": {
     "url": "https://github.com/Bonsailinse/Axobotl/issues"
   },
-  "homepage": "https://github.com/Bonsailinse/Axobotl#readme"
+  "homepage": "https://github.com/Bonsailinse/Axobotl#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
