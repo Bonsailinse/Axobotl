@@ -27,7 +27,6 @@
     },
     "db:push": {
       "cache": false
-    },
-    "commit": {}
+    }
   }
 }

@@ -14,8 +14,7 @@
     "start": "turbo start",
     "lint": "turbo lint",
     "clean": "turbo clean",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "commit": "git-cz"
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
