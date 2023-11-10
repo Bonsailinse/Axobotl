@@ -1,5 +1,13 @@
 {
   "private": true,
+  "name": "axobotl",
+  "version": "0.0.1",
+  "description": "The official multipurpose bot for the AxolotlArmy community on Discord.",
+  "author": "Bonsailinse <mail@bonsailinse.net>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bonsailinse/Axobotl.git"
+  },
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -15,5 +23,21 @@
     "tsconfig": "workspace:*",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.6.10"
+  "packageManager": "pnpm@8.6.10",
+  "keywords": [
+    "discord",
+    "bot",
+    "multipurpose",
+    "moderation",
+    "commands",
+    "levels",
+    "xp",
+    "axolotl",
+    "axolotlarmy"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bonsailinse/Axobotl/issues"
+  },
+  "homepage": "https://github.com/Bonsailinse/Axobotl#readme"
 }
