@@ -33,8 +33,11 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+apps/bot/src/config.json
+
 # turbo
 .turbo
 
 # ui
 dist/
+
